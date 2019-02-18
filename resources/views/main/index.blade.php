@@ -35,8 +35,11 @@
 
         <div class="container overflow-hidden">
           <div data-zanim-timeline='{"delay":0.6}' data-zanim-trigger="scroll">
+
+          @include('components.errorMessages')
+          
             <div class="row minh-100vh align-items-center py-8 justify-content-center text-center">
-              <div class="col-lg-8">
+              <div class="col-lg-8">          
                 <div class="overflow-hidden">
                   <h1 class="text-white fs-3 fs-sm-4 fs-lg-5 px-2 px-lg-0 text-smallcaps parallax display-4" data-rellax-speed="5"><span class="overflow-hidden d-block"><span class="d-inline-block" data-zanim-xs='{"delay":0.1}'>{{ $row[0]->body }}</span></span><span class="overflow-hidden d-block"><span class="d-inline-block" data-zanim-xs='{"delay":0.2}'>{{ $row[1]->body }}</span></span>
                     <span
@@ -265,7 +268,10 @@
       <!-- <section> begin ============================-->
       <section id="cafe-contact">
 
-        <form class="container" action="controllers/formatController.php" method="POST">
+        <form class="container" action="/information" method="POST">
+
+          @csrf
+
           <div class="row justify-content-center mb-lg-6" data-zanim-timeline="{}" data-zanim-trigger="scroll">
             <div class="col-md-10 col-lg-7 col-xl-6 text-center">
               <h2 class="text-underline mb-4 fs-3 fs-sm-4">{{ $row[67]->body }}</h2>
