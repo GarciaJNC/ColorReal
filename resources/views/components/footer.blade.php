@@ -19,7 +19,7 @@
     <!--===============================================-->
     <!--    Modal for language selection-->
     <!--===============================================-->
-    <div class="remodal bg-black remodal-select-language" data-remodal-id="language">
+<!--     <div class="remodal bg-black remodal-select-language" data-remodal-id="language">
       <div class="remodal-close" data-remodal-action="close"></div>
       <ul class="list-unstyled pl-0 my-0 py-4 text-sans-serif">
         <li>
@@ -35,7 +35,7 @@
           <a class="pt-1 d-block text-500" href="#">Deutsche</a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
 
     <!-- ===============================================-->

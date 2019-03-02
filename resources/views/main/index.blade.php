@@ -76,16 +76,16 @@
           </div>
           <div class="row mt-6">
             <div class="col-6 col-lg-3">
-              <img class="rounded img-fluid" src="img/<{{ $rowImg[1]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' data-zanim-trigger="scroll" />
+              <img class="rounded img-fluid" src="img/{{ $rowImg[1]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.1}' data-zanim-trigger="scroll" />
             </div>
             <div class="col-6 col-lg-3">
-              <img class="rounded img-fluid" src="img/<{{ $rowImg[2]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.2}' data-zanim-trigger="scroll" />
+              <img class="rounded img-fluid" src="img/{{ $rowImg[2]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.2}' data-zanim-trigger="scroll" />
             </div>
             <div class="col-6 col-lg-3 mt-4 mt-lg-0">
-              <img class="rounded img-fluid" src="img/<{{ $rowImg[3]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' data-zanim-trigger="scroll" />
+              <img class="rounded img-fluid" src="img/{{ $rowImg[3]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.3}' data-zanim-trigger="scroll" />
             </div>
             <div class="col-6 col-lg-3 mt-4 mt-lg-0">
-              <img class="rounded img-fluid" src="img/<{{ $rowImg[4]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' data-zanim-trigger="scroll" />
+              <img class="rounded img-fluid" src="img/{{ $rowImg[4]->source }}" alt="" data-zanim-xs='{"animation":"zoom-in","delay":0.4}' data-zanim-trigger="scroll" />
             </div>
           </div>
           <div class="row justify-content-center mt-6">

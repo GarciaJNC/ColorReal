@@ -16,12 +16,12 @@
     <!-- ===============================================-->
     <!--    Favicons-->
     <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="crLogo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="crLogo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="crLogo.png">
-    <link rel="shortcut icon" type="image/x-icon" href="crLogo.png">
-    <link rel="manifest" href="crLogo.png">
-    <meta name="msapplication-TileImage" content="crLogo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/crLogo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/crLogo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/crLogo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/crLogo.png">
+    <link rel="manifest" href="img/crLogo.png">
+    <meta name="msapplication-TileImage" content="img/crLogo.png">
     <meta name="theme-color" content="#ffffff">
 
 

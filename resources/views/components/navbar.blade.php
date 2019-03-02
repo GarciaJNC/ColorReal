@@ -4,8 +4,8 @@
     <nav class="fancynavbar" data-zanim-lg='{"from":{"opacity":1,"x":70},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}' data-zanim-xs='{"from":{"opacity":1,"y":-48},"to":{"opacity":1,"y":0},"ease":"CubicBezier","duration":0.8,"delay":0.3}'
       data-zanim-trigger="scroll" data-exclusive="true">
       <div class="fancynavbar-togglerbar" data-onscroll-fade-in="true">
-        <a class="fancynavbar-brand" href="index.php">
-          <img class="fancynavbar-brand-img" src="crLogoBlackAndWhite.png" alt="" width="30" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
+        <a class="fancynavbar-brand" href="/">
+          <img class="fancynavbar-brand-img" src="img/crLogoBlackAndWhite.png" alt="" width="30" height="30" data-zanim-lg='{"from":{"opacity":0,"x":45},"to":{"opacity":1,"x":0},"ease":"CubicBezier","duration":0.8,"delay":0.4}' data-zanim-trigger="scroll"
           />
 
           <!--You can use icon or text logo as well-->
@@ -57,9 +57,9 @@
             <a class="fancynav-link fancy-dropdown-toggle" href="/logout"><span class="fancynav-link-content">logout</span></a>
           </li>
           @else
-          <li class="fancynav-item fancy-dropdown">
+<!--           <li class="fancynav-item fancy-dropdown">
             <a class="fancynav-link fancy-dropdown-toggle" href="/login"><span class="fancynav-link-content">login</span></a>
-          </li>
+          </li> -->
           @endif
         </ul>
       </div>

@@ -6,6 +6,6 @@ Route::resource('/contact', 'ContactsController');
 Route::resource('/portfolio', 'PortfoliosController');
 Route::resource('/information', 'InfornationsController');
 
-Auth::routes();
+// Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
